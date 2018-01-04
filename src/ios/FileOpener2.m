@@ -99,6 +99,7 @@ NSString* callbackId;
                                      nil
                                      ];
             pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR messageAsDictionary:jsonObj];
+            [self.commandDelegate sendPluginResult:pluginResult callbackId:callbackId];
         }
     });
 }
