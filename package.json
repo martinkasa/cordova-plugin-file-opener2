@@ -1,38 +1,14 @@
 {
-  "_from": "git+https://github.com/martinkasa/cordova-plugin-file-opener2.git",
-  "_id": "cordova-plugin-file-opener2@2.0.19",
-  "_inBundle": false,
-  "_location": "/cordova-plugin-file-opener2",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "git",
-    "raw": "git+https://github.com/martinkasa/cordova-plugin-file-opener2.git",
-    "rawSpec": "git+https://github.com/martinkasa/cordova-plugin-file-opener2.git",
-    "saveSpec": "git+https://github.com/martinkasa/cordova-plugin-file-opener2.git",
-    "fetchSpec": "https://github.com/martinkasa/cordova-plugin-file-opener2.git",
-    "gitCommittish": null
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "git+https://github.com/martinkasa/cordova-plugin-file-opener2.git#ff79ef8f4cc3ef715d7f8cc0004e582b65c424f5",
-  "_spec": "git+https://github.com/martinkasa/cordova-plugin-file-opener2.git",
-  "_where": "/Users/mka/whitestein/mobile/src",
-  "author": {
-    "name": "pwlin05@gmail.com"
-  },
-  "bugs": {
-    "url": "https://github.com/pwlin/cordova-plugin-file-opener2/issues"
-  },
-  "bundleDependencies": false,
+  "name": "cordova-plugin-file-opener2",
+  "version": "3.0.4",
+  "description": "A File Opener Plugin for Cordova. (The Original Version)",
   "cordova": {
     "id": "cordova-plugin-file-opener2",
     "platforms": [
       "android",
       "ios",
-      "wp8",
-      "windows"
+      "windows",
+      "electron"
     ]
   },
   "deprecated": false,
@@ -48,9 +24,15 @@
     "ecosystem:cordova",
     "cordova-android",
     "cordova-ios",
-    "cordova-wp8",
-    "cordova-windows"
+    "cordova-windows",
+    "cordova-electron"
   ],
+  "engines": {
+    "cordova": ">=6.0.0"
+  },
+  "author": {
+    "name": "pwlin05@gmail.com"
+  },
   "license": "MIT",
   "name": "cordova-plugin-file-opener2",
   "repository": {
